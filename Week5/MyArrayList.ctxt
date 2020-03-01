@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MyArrayList
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyArrayList\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyArrayList()
+comment2.params=a\ index1\ index2
+comment2.target=void\ swapReferences(java.util.ArrayList,\ int,\ int)
+comment3.params=a
+comment3.target=void\ insertionSort(java.util.ArrayList)
+comment4.params=a\ low\ high
+comment4.target=void\ quicksort(java.util.ArrayList,\ int,\ int)
+comment5.params=a
+comment5.target=void\ stableQuickSort(java.util.ArrayList)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

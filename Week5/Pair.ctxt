@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Pair
+comment0.text=\r\n\ Composite\ design\ that\ store\ 2\ values\ key\ and\ value\r\n\r\n\ @author\ EvanVu\r\n\ @version\ 1\r\n
+comment1.params=key\ value
+comment1.target=Pair(java.lang.Comparable,\ java.lang.Comparable)
+comment2.params=newKey
+comment2.target=void\ setKey(java.lang.Comparable)
+comment3.params=newValue
+comment3.target=void\ setValue(java.lang.Comparable)
+comment4.params=
+comment4.target=java.lang.Comparable\ getKey()
+comment5.params=
+comment5.target=java.lang.Comparable\ getValue()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

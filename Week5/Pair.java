@@ -10,7 +10,9 @@ public class Pair<K extends Comparable<K>, V extends Comparable<V>>
     private K key;
     private V value;
     
-    public Pair(){
+    public Pair(K key, V value){
+        this.key=key;
+        this.value=value;
     }
     
     public void setKey(K newKey){
@@ -21,9 +23,15 @@ public class Pair<K extends Comparable<K>, V extends Comparable<V>>
         this.value=newValue;
     }
     
+    public K getKey(){
+        return this.key;
+    }
+    
+    public V getValue(){
+        return this. value;
+    }
+    
     public String toString(){
         return key.toString() + value.toString();
     }
-    
-    
 }
