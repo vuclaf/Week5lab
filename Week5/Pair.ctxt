@@ -1,16 +1,25 @@
 #BlueJ class context
 comment0.target=Pair
-comment0.text=\r\n\ Composite\ design\ that\ store\ 2\ values\ key\ and\ value\r\n\r\n\ @author\ EvanVu\r\n\ @version\ 1\r\n
+comment0.text=\n\ Composite\ design\ that\ store\ 2\ values\ key\ and\ value\n\n\ @author\ EvanVu\n\ @version\ 1\n
 comment1.params=key\ value
 comment1.target=Pair(java.lang.Comparable,\ java.lang.Comparable)
 comment2.params=newKey
 comment2.target=void\ setKey(java.lang.Comparable)
+comment2.text=\n\ Setters\ for\ Key\ and\ Value\n
 comment3.params=newValue
 comment3.target=void\ setValue(java.lang.Comparable)
 comment4.params=
 comment4.target=java.lang.Comparable\ getKey()
+comment4.text=\n\ Getters\ for\ Key\ and\ Value\n
 comment5.params=
 comment5.target=java.lang.Comparable\ getValue()
 comment6.params=
 comment6.target=java.lang.String\ toString()
-numComments=7
+comment6.text=\n\ Return\ the\ Pairs\ as\ a\ string\ of\ key\ and\ value\n
+comment7.params=p
+comment7.target=int\ compareTo(Pair)
+comment7.text=\n\ Compare\ two\ pairs\ by\ their\ values\n\ @param\ the\ pair\ to\ compare\ against\n\ @return\ 0\ for\ equal,\ 1\ for\ more\ than\ and\ -1\ for\ less\ than\n
+comment8.params=p
+comment8.target=int\ compareToWithKey(Pair)
+comment8.text=\n\ \n\ Compare\ two\ pairs\ by\ their\ keys\n\ @param\ the\ pair\ to\ compare\ against\n\ @return\ 0\ for\ equal,\ 1\ for\ more\ than\ and\ -1\ for\ less\ than\n
+numComments=9
